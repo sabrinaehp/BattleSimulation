@@ -50,7 +50,7 @@ public class Batalha {
         }
 		
         System.out.println("************ BATALHA ************");
-    	while (boss.getVida() >0 && player.getVida() >0) {
+    	while (boss.getVida() >0 || player.getVida() >0) {
     		
     		boss.setVida(boss.getVida() - (player.getAtaque() - boss.getDefesa()));
     		System.out.println(player.getNome() + " atingiu o Chefe com " + (player.getAtaque() - boss.getDefesa()) + " de dano!");
