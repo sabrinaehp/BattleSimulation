@@ -62,10 +62,16 @@ public class Batalha {
                 break;
             }
     		
+            try {
+                Thread.sleep(1000); // Atraso de 1 segundo
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+    		
     		System.out.println();
     		player.setVida(player.getVida() - (boss.getAtaque() - player.getDefesa()));
     		System.out.println("O Chefe atingiu " + player.getNome() + " com " + (boss.getAtaque() - player.getDefesa()) + " de dano!");
-    		System.out.println("Vida restante do Jogador: " + boss.getVida());
+    		System.out.println("Vida restante do Jogador: " + player.getVida());
     		System.out.println("------------------------------");
     		
     		if (player.getVida() <= 0) {
