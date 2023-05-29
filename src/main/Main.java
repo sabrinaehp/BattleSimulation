@@ -12,7 +12,7 @@ public class Main {
 		player.nomePersonagem();
 		Batalha batalha = new Batalha(boss, player);
 
-		batalha.round();
+		batalha.iniciarBatalha();
 		
 	}
 

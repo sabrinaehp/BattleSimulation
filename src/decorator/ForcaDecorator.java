@@ -27,6 +27,7 @@ public class ForcaDecorator implements DecoratorPersonagem {
 	    personagem.setAtaque(buffAtaque);
 	}
 	
+	@Override
 	public void aumentarAtributosBoss() {
 	    int numeroAleatorio = random.nextInt(20) + 1;
 
