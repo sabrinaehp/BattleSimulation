@@ -9,3 +9,11 @@ Vamos criar um **e-commerce**, para a *empresa X* e blablabla
 ## Funcionalidades:
 
 _Checkout, **Tela de Produto**, Catálogo, Home com banner_
+
+### Linguagens do projeto:
+
+* HTML
+* CSS
+* JavaScript
+* PHP
+* MySQL
