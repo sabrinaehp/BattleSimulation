@@ -33,4 +33,4 @@ _Checkout, **Tela de Produto**, Catálogo, Home com banner_
 
 ### Imagem externa
 
-![Logo do PHP](https://pngimg.com/d/php_PNG29.png)
+![Logo do PHP](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png)
